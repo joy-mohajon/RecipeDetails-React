@@ -1,0 +1,88 @@
+.comment {
+  /* background-color: white; */
+  margin-top: 70px;
+  width: 100%;
+}
+.comment h5 {
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
+  padding: 35px 0;
+}
+.cmmentDetail {
+  background-color: white;
+  width: 100%;
+  padding: 19px;
+  position: relative;
+  box-shadow: 1px 1px #bebebe;
+  border-radius: 5px;
+}
+.cmmentDetail textarea {
+  resize: none;
+  width: 100%;
+  height: 150px;
+  border: 0.52px solid #ccc;
+  border-radius: 3px;
+}
+.userDetails {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  flex-flow: row wrap;
+  margin: 10px 0px 0 0;
+}
+.userDetails .diff_input {
+  border-radius: 3px;
+  /* width: 100%; */
+  width: 32.5%;
+  font-size: 0.91em;
+  padding: 6px 8px;
+  border: 0.52px solid #ccc;
+  color: rgb(129, 129, 129);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: row nowrap;
+  position: relative;
+}
+.userDetails .diff_input:not(:last-child) {
+  margin-right: 10px;
+}
+.userDetails .diff_input:hover {
+  border: 0.52px solid rgb(38, 36, 36);
+}
+.diff_input > input {
+  border: none;
+  padding-left: 10px;
+  width: 94%;
+  height: 100%;
+}
+.diff_input > input:focus:focus {
+  outline: 0;
+}
+textarea:focus {
+  outline: 0;
+  border: 0.52px solid rgb(139, 139, 139);
+}
+.imprtantIcon {
+  color: #ff7a73;
+  /* font-size: 23px; */
+}
+
+.saveDetail {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.submitCmmnt {
+  text-align: center;
+  background-color: #ff7a73;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 13px;
+  font-size: 0.82em;
+  color: white;
+  font-weight: 600;
+}
+.cmmntbutton {
+  text-align: right;
+}

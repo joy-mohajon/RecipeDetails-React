@@ -1,0 +1,37 @@
+.categoriesCard {
+  width: 100%;
+  background-color: white;
+  margin-top: 32px;
+  position: relative;
+  box-shadow: 1px 1px #bebebe;
+}
+.categoriesCard h5 {
+  text-align: left;
+  padding: 14px 19px;
+  font-size: 0.988em;
+  font-weight: 600;
+}
+.categories {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  flex-grow: 3;
+}
+.categories > div {
+  background-color: #ff8e88;
+  text-align: center;
+  padding: 35.3px 20px;
+  font-size: 0.75em;
+  color: white;
+  font-weight: 700;
+  width: 33.3334%;
+}
+.categories > div:hover {
+  background-image: radial-gradient(
+    rgba(226, 174, 171, 0.3),
+    rgba(226, 174, 171, 0.3),
+    rgba(178, 107, 104, 0.85)
+  );
+}

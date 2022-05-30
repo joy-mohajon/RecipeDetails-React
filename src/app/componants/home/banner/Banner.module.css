@@ -1,0 +1,6 @@
+.responsiveImage {
+  width: 100%;
+  min-width: 499px;
+  height: auto;
+  box-shadow: 1px 1px #bebebe;
+}

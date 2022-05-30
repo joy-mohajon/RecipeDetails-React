@@ -1,0 +1,35 @@
+.recipeDetail {
+  position: relative;
+}
+.rating {
+  background-color: white;
+  width: 100%;
+  height: auto;
+  padding: 10px 0 4px 10px;
+  font-size: 0.9em;
+  margin: 0;
+  box-shadow: 1px 1px #bebebe;
+}
+.rating p {
+  margin-top: 8px;
+}
+.starIcon {
+  color: #ff8e88;
+  font-size: 1.5em;
+}
+
+.favorite {
+  width: 100%;
+  background-color: #dbbc94;
+  padding: 10px;
+  color: white;
+  box-shadow: 1px 1px #bebebe;
+  margin-bottom: 10px;
+}
+
+.otherIcon {
+  color: white;
+  font-size: 1.8em;
+  margin-right: 10px;
+  /* box-shadow: 1.5px 1.5px #afaeae; */
+}

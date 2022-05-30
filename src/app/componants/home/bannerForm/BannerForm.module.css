@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.bannerForm {
+  margin-top: 32px;
+  background-color: white;
+  text-align: left;
+  width: 100%;
+  position: relative;
+  padding: 21px;
+  box-shadow: 1px 1px #bebebe;
+}
+.bannerForm > h5 {
+  text-align: left;
+  padding: 0 0 11px;
+  font-size: 0.988em;
+  font-weight: 600;
+}
+.diff_input {
+  background-color: white;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 0.91em;
+  padding: 9px 10px;
+  margin-bottom: 10px;
+  /* font-weight: 400; */
+  border: 0.52px solid #ccc;
+  color: rgb(193, 193, 193);
+  /* font-family: "Poppins", sans-serif; */
+}
+.diff_input:not(:first-child) {
+  cursor: pointer;
+}
+.diff_input:focus {
+  outline: 0;
+  border: 0.52px solid rgb(156, 156, 156);
+}
+.diff_input:hover {
+  color: rgb(135, 135, 135);
+}
+.bannerForm .startButton {
+  background-color: #ff8e88;
+  width: 100%;
+  border: none;
+  padding: 5.8px 8px;
+  border-radius: 5px;
+  margin-top: 5px;
+}

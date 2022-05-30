@@ -1,0 +1,28 @@
+.postDetails {
+  margin: 32px 0px;
+  font-size: 0.9em;
+  width: 100%;
+}
+.row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row nowrap;
+  margin-bottom: 10px;
+}
+.left {
+  background-color: #dbbc94;
+  color: white;
+  padding: 7px;
+  width: 60%;
+  text-align: left;
+  box-shadow: 1px 1px #bebebe;
+}
+.right {
+  background-color: white;
+  padding: 7px;
+  width: 40%;
+  text-align: left;
+  box-shadow: 1px 1px #bebebe;
+  color: black;
+}

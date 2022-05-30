@@ -1,0 +1,36 @@
+.aboutRecipe {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row nowrap;
+  position: relative;
+}
+.aboutRecipe span {
+  font-size: 1.8em;
+  color: white;
+  background-color: #ff8e88;
+  padding: 6px 19px;
+  position: relative;
+}
+.aboutRecipe span::after {
+  content: "";
+  position: absolute;
+  background-color: #ff8e88;
+  height: 12px;
+  width: 12px;
+  top: 50%;
+  left: 100%;
+  z-index: 2;
+  transform: translate(-50%, -50%) rotate(45deg);
+  display: none;
+}
+.aboutRecipe:hover.aboutRecipe span::after {
+  display: block;
+}
+.aboutRecipe p {
+  background-color: white;
+  padding: 25px 20px;
+  font-size: 0.89em;
+  text-align: left;
+  box-shadow: 1px 1px #bebebe;
+}

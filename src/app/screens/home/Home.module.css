@@ -1,0 +1,25 @@
+.backgroundImage {
+  background-image: url("../../images/background/body.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: auto;
+}
+.main {
+  width: 100%;
+  min-width: 500px;
+  padding: 0px 0 100px 0;
+}
+.wrap {
+  max-width: 1190px;
+
+  text-align: left;
+  position: relative;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.2em;
+  padding: 50px 0;
+}
