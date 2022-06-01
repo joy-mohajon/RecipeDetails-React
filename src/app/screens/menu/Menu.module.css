@@ -1,0 +1,68 @@
+.menu_book {
+  padding-top: 30vh;
+  text-align: center;
+  margin: 0 50px 40px 50px;
+}
+.menu_book h1 {
+  color: black;
+  font-family: orpheus-pro;
+  font-weight: 400;
+  font-size: 3.3em;
+}
+.menu_book p {
+  font-size: 1.1em;
+}
+.menu_type {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: row; */
+  flex-flow: row wrap;
+}
+.menu_type > div {
+  border: 2px solid black;
+  padding: 20px 15px;
+  width: 350px;
+  font-size: 1.05em;
+  margin: 20px 20px;
+  position: relative;
+}
+.menu_type div::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  height: 0;
+  width: 100%;
+  /* transition: height 1s; */
+  /* animation: backColorMove 1s ease; */
+}
+.menu_type div:hover {
+  color: white;
+  cursor: pointer;
+}
+.menu_type div:hover::after {
+  z-index: -2;
+  animation: backColorForward 0.4s ease forwards alternate;
+}
+.menu_type div:not(:hover)::after {
+  animation: backColorBackward 0.2s ease forwards alternate;
+}
+@keyframes backColorForward {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 100%;
+  }
+}
+@keyframes backColorBackward {
+  from {
+    height: 100%;
+  }
+  to {
+    height: 0%;
+  }
+}
