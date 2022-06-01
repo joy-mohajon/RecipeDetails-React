@@ -1,11 +1,10 @@
 import "./App.css";
-import Home from "./app/screens/home/Home";
-// import picc from "./1.png";
+import Navigator from "./navigator/Navigator";
 
 function App() {
   return (
     <>
-      <Home />
+      <Navigator />
     </>
   );
 }
