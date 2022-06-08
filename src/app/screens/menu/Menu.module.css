@@ -1,7 +1,7 @@
 .menu_book {
-  padding-top: 30vh;
+  /* padding-top: 30vh; */
   text-align: center;
-  margin: 0 50px 40px 50px;
+  margin: 0 0px 50px 0px;
 }
 .menu_book h1 {
   color: black;
@@ -65,4 +65,11 @@
   to {
     height: 0%;
   }
+}
+
+.menu_card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
