@@ -1,0 +1,21 @@
+.haveUnderline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.noneUnderline {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.2em;
+}
+.menu h2 {
+  font-size: 1.8em;
+}
+.menu h5 {
+    font-size: 1.2em;
+    padding-top: 20px;
+  }
