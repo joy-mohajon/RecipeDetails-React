@@ -1,0 +1,25 @@
+.booking {
+  margin-top: 50px;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+.items div {
+  border: 0.3px solid rgb(220, 219, 219);
+  width: 100%;
+  padding: 15px 10px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.items div:hover {
+  background-color: rgb(235, 235, 234);
+}
+.close {
+  display: none;
+}
+.show {
+  display: block;
+}
