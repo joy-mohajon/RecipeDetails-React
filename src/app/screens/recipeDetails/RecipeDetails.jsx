@@ -2,7 +2,6 @@ import React from "react";
 import classes from "./RecipeDetails.module.css";
 
 const RecipeDetails = ({ recipeDetails }) => {
-  console.log(recipeDetails.salad);
   return (
     <div>
       <h5>Appetizer</h5>
