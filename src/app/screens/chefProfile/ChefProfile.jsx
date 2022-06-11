@@ -59,12 +59,12 @@ const ChefProfile = ({ profile }) => {
               )}
             </div>
           </div>
-          {/* <Link to={`${profile.id}/${profile.name}`}> */}
+          <Link to={`${profile.id}/${profile.name}`}>
             <div className={classes.cardButton}>
               Book {profile.name} &nbsp;
               <AiFillForward />
             </div>
-          {/* </Link> */}
+          </Link>
         </div>
       </div>
     </div>
