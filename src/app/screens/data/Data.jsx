@@ -15,6 +15,8 @@ export const chefProfileData = [
     profileImage: profile1,
     name: "Albert DePompeis",
     cuisine: "New American",
+    about:
+      "Chef Albee, has been working in New York and across the United States and internationally for over twenty years. Spending time at Benoit, in New York, working seasonally in Nantucket, Spain, and Miami, and Detroit, participating in New York food & wine festival and cooking at the James Beard house. Chef Albee specializes in New American, Vegan, and Mediterranean cuisine.",
     menu_90: {
       appetizer: "Massaged kale salad, Scallop Crudo",
       salad:
@@ -27,8 +29,6 @@ export const chefProfileData = [
         "Cantaloupe fresh basil, toasted prosciutto, cold-pressed olive oil, Aleppo",
       entree: "Pappardelle with lamb ragu",
     },
-    about:
-      "Chef Albee, has been working in New York and across the United States and internationally for over twenty years. Spending time at Benoit, in New York, working seasonally in Nantucket, Spain, and Miami, and Detroit, participating in New York food & wine festival and cooking at the James Beard house. Chef Albee specializes in New American, Vegan, and Mediterranean cuisine.",
   },
   {
     id: 2,
@@ -36,13 +36,13 @@ export const chefProfileData = [
     profileImage: profile2,
     name: "Jamie Vankoeverden",
     cuisine: "New American",
+    about:
+      "Cooking has been my passion from the time I could walk. Growing up, I’d spend countless days in Brooklyn, picking herbs, snapping green beans and jarring tomatoes with my grandmother— experiences that shaped who I am. From there, my culinary point of view and palate has expanded and grown with inspiration from my diverse family and friends, as well as the wonderful chefs I’ve met throughout my career. I attended culinary school in 2009, received my degree in pastry arts, and have been working in culinary fields since. I favor bold flavor combinations and fresh seasonal cooking, and I would be honored to share my passion with you and your guests.",
     menu_90: {
       appetizer: "Massaged kale salad, Scallop Crudo",
       salad: "Duck Breast or Salmon Fillet (please advise us in advance)",
       dessert: "Coconut Cake",
     },
-    about:
-      "Cooking has been my passion from the time I could walk. Growing up, I’d spend countless days in Brooklyn, picking herbs, snapping green beans and jarring tomatoes with my grandmother— experiences that shaped who I am. From there, my culinary point of view and palate has expanded and grown with inspiration from my diverse family and friends, as well as the wonderful chefs I’ve met throughout my career. I attended culinary school in 2009, received my degree in pastry arts, and have been working in culinary fields since. I favor bold flavor combinations and fresh seasonal cooking, and I would be honored to share my passion with you and your guests.",
   },
   {
     id: 3,
